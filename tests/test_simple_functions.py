@@ -7,7 +7,7 @@ class TestSimpleFunctions(object):
     '''Class to test our simple functions are working correctly'''
 
     @pytest.mark.parametrize('iterable, expected', [
-        ([8, 7, 5], 19),
+        ([8, 7, 5], 22),
         ((10, -2, 5, -10, 1), 4)
     ])
     def test_my_add(self, iterable, expected):
